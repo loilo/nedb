@@ -4,9 +4,7 @@ const { tap, untap, ALL } = require('tapsig')
 const methods = [
   'loadDatabase',
   'insert',
-  'find',
   'findOne',
-  'count',
   'update',
   'remove',
   'ensureIndex',
