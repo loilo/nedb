@@ -1,0 +1,35 @@
+{
+  "name": "@loilo/nedb",
+  "version": "1.8.0",
+  "description": "A nedb wrapper with Promises",
+  "keywords": [
+    "nedb",
+    "database",
+    "nosql",
+    "promise"
+  ],
+  "homepage": "https://github.com/loilo/nedb#readme",
+  "bugs": {
+    "url": "https://github.com/loilo/nedb/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loilo/nedb.git"
+  },
+  "license": "MIT",
+  "author": "Florian Reuschel <florian@loilo.de>",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.12",
+    "nedb": "^1.8.0",
+    "tapsig": "^0.1.7"
+  },
+  "devDependencies": {}
+}
